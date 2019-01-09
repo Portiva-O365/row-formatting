@@ -116,13 +116,13 @@
                     "children": [{
                         "elmType": "a",
                         "attributes": {
-                            "href": "='https://sharepointsushi.sharepoint.com'+[$Picture]",
+                            "href": "='[Your Tenant Url]'+[$Picture]",
                             "target": "_blank"
                         },
                         "children": [{
                             "elmType": "img",
                             "attributes": {
-                                "src": "='https://sharepointsushi.sharepoint.com'+[$Picture]",
+                                "src": "='[Your Tenant Url]'+[$Picture]",
                                 "title": ""
                             },
                             "style": {

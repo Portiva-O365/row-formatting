@@ -8,4 +8,4 @@ This repository contains samples for row formatting in modern lists and document
 
 
 
-[FAQLink]: ./row-formatting/readme.md
+[FAQLink]: https://github.com/Portiva-O365/row-formatting/tree/master/FAQ
