@@ -14,7 +14,7 @@ Title | Single Line of Text | Field contains the question asked. Default `Title`
 Answer | Multi Line of Text / Plain Text | Field contains the answer, formatted as plain text.
 Picture | Hyperlink or Picture | Hyperlink formatted as picture displayed on the right site of the question and answer.
 
-## Adding the Row Formatting JSON code
+## Adding the Row Formatting JSON Code
 
 To add the row formatting code, follow the steps below:
 1. Create in the FAQ list (created above) a new view called FAQ
@@ -25,10 +25,6 @@ To add the row formatting code, follow the steps below:
  
 4. Choose _Preview_ to show a sample of the new formatted view, note: the formatted view is not saved yet, closing the panel will discard all changes you made without confirmation!
 5. Choose _Save_ to make it available for the end user
-
-> If you create or maintain the JSON code, use a JSON editor like [Visual Studio Code](https://code.visualstudio.com/). This will make life much easier!
-
-> Use the _Preview_ mode **extensively**, it will show mistakes in JSON immediately. Wrongly formatted JSON will not be parsed and generates an error message below the JSON box. It will not show you were the mistake is made. Using a code editor like the one mentioned before is more likely to show you erros in parsed JSON code.
 
 ## Food for Thought
 
