@@ -1,0 +1,142 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+        "elmType": "div",
+        "attributes": {
+            "class": "ms-borderColor-neutralLight"
+        },
+        "style": {
+            "flex-direction": "column",
+            "align-items": "stretch",
+            "box-sizing": "border-box",
+            "border-width": "1px",
+            "border-left-width": "4px",
+            "border-style": "solid",
+            "margin": "auto auto 10px auto",
+            "width": "75%"
+        },
+        "children": [{
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "align-items": "top",
+                "box-sizing": "border-box",
+                "padding": "0 20px"
+            },
+            "children": [{
+                    "elmType": "div",
+                    "style": {
+                        "flex": " 1 0 300px",
+                        "margin-right": "10px"
+                    },
+                    "children": [{
+                        "elmType": "div",
+                        "style": {},
+                        "children": [{
+                                "elmType": "div",
+                                "attributes": {
+                                    "class": "ms-font-xl"
+                                },
+                                "style": {
+                                    "line-height": "1.5em",
+                                    "color": "#0077FF",
+                                    "margin": "8px 0"
+                                },
+                                "txtContent": "[$Title]"
+                            },
+                            {
+                                "elmType": "div",
+                                "attributes": {
+                                    "class": "ms-font-m"
+                                },
+                                "style": {
+                                    "line-height": "1.5em",
+                                    "margin": "8px 0"
+                                },
+                                "children": [{
+                                        "elmType": "div",
+                                        "style": {
+                                            "display": "inline-block"
+                                        },
+                                        "children": [{
+                                                "elmType": "span",
+                                                "style": {
+                                                    "vertical-align": "bottom",
+                                                    "margin": "0 9px 0 1px"
+                                                },
+                                                "attributes": {
+                                                    "iconName": "FolderList"
+                                                }
+                                            },
+                                            {
+                                                "elmType": "span",
+                                                "attributes": {
+                                                    "class": "ms-fontWeight-semibold"
+                                                },
+                                                "style": {
+                                                    "margin-right": "18px"
+                                                },
+                                                "txtContent": "Answer"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "elmType": "div",
+                                        "style": {
+                                            "display": "inline-block"
+                                        },
+                                        "children": [{
+                                            "elmType": "span",
+                                            "style": {},
+                                            "txtContent": "[$Answer]"
+                                        }]
+                                    }
+                                ]
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "elmType": "div",
+                    "attributes": {
+                        "class": "ms-borderColor-neutralLight"
+                    },
+                    "style": {
+                        "flex": "0 0 203px",
+                        "border-left-width": "1px",
+                        "border-left-style": "solid",
+                        "display": "flex",
+                        "justify-content": "space-evenly",
+                        "align-items": "center",
+                        "margin": "8px 0"
+                    },
+                    "children": [{
+                        "elmType": "a",
+                        "attributes": {
+                            "href": "='https://sharepointsushi.sharepoint.com'+[$Picture]",
+                            "target": "_blank"
+                        },
+                        "children": [{
+                            "elmType": "img",
+                            "attributes": {
+                                "src": "='https://sharepointsushi.sharepoint.com'+[$Picture]",
+                                "title": ""
+                            },
+                            "style": {
+                                "border": "1px solid #808080",
+                                "border-radius": "0",
+                                "left": "50%",
+                                "width": "200px",
+                                "height": "auto",
+                                "margin-left": "15px"
+                            }
+                        }]
+                    }]
+                }
+            ]
+        }]
+    }
+}
