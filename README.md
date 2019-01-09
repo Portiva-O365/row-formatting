@@ -4,8 +4,4 @@ This repository contains samples for row formatting in modern lists and document
 
 ## Available Row Formatting samples
 
-- [Frequently Asked Questions](FAQLink)
-
-
-
-[FAQLink]: https://github.com/Portiva-O365/row-formatting/tree/master/FAQ
+- [Frequently Asked Questions](https://github.com/Portiva-O365/row-formatting/tree/master/FAQ)
